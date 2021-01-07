@@ -1,0 +1,22 @@
+{
+    "name": "threejs-parcel",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "scripts": {
+        "clean": "rm dist/bundle.js",
+        "start": "parcel src/index.html",
+        "build-prod": "parcel build src/index.html"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "@babel/core": "^7.12.10",
+        "@babel/preset-env": "^7.12.11",
+        "eslint": "^7.17.0",
+        "parcel-bundler": "^1.12.4",
+        "three": "^0.124.0"
+    }
+}
